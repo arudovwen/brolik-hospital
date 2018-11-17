@@ -1,6 +1,6 @@
 <?php ob_start();?>
 <?php
-require "dbconnect.php";
+require "includes/dbconnect.php";
 include "header.php";
 
 
