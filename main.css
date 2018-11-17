@@ -1,0 +1,331 @@
+body{
+    background: rgb(200, 203, 230);
+    color: black;
+   
+}
+.navbar-brand {
+    margin-bottom: .5rem;
+    font-family: -webkit-pictograph;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: rgba(0,123,255,.5);
+  
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #234f56;
+}
+#cssmenu ul {
+  background: white;
+}
+.my-container{
+    position: relative;
+    background: #a6e5ee;
+    overflow: hidden;
+
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background-image: url('image/back.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container .side {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: rgb(14, 13, 13);
+    margin-top: 70px;
+} 
+.my-container .side .side1{
+    border-radius: 20px;
+    height: 2cm;
+    margin: 4px;
+    padding: 20px;
+    background-color: rgb(206, 221, 231)
+}
+.my-container .motto1{
+    padding: 80px;
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: rgb(7, 7, 7);
+} 
+.my-container2{
+    position: relative;
+    background: #a6e5ee;
+    overflow: hidden;
+
+}
+.my-container2:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background-image: url('image/motto2.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container2 .motto2{
+    padding: 80px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    color: rgb(7, 7, 7);
+} 
+
+#quick-guide{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.carousel-caption{
+    color: rgb(10, 27, 102)
+}
+.subscribe{
+    padding: 50px;
+    margin-top: 3cm;
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+.bg-info {
+  background-color: #234f56!important;
+}
+.login-wrapper{
+  background-color: whitesmoke;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2em;
+}
+
+.loginform{
+  background: rgb(200, 203, 230);
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding: 70px;
+  border-radius: 5em;
+}
+.rform-wrapper{
+  background-color: white;
+  height: auto;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 70px;
+ 
+}
+.rform{
+  background: rgb(200, 203, 230);
+  height: auto;
+  width: 100%;
+  margin: 10px;
+  padding: 70px;
+  border-radius: 5em;
+}
+
+.aform-wrapper{
+  background-color: white;
+  height: auto;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  padding: 70px;
+}
+.aform{
+  background: rgb(200, 203, 230);
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 70px;
+  border-radius: 5em;
+}
+
+.biller{
+  background-color: white;
+  height: auto;
+  width: 100%;
+ text-align: center;
+
+ margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius:3em;
+}
+.loginMychart{
+  background-color:rgb(142, 161, 173);
+  padding: 10px;
+  border-radius: 2em;
+
+}
+.payBill{
+  background-color:rgb(142, 161, 173);
+  padding: 10px;
+  border-radius: 2em;
+}
+
+.contact_wrap{
+  background-color: white;
+  height: auto;
+  width: 100%;
+ margin-bottom: 10px;
+  margin-top: 40px;
+  padding: 50px;
+  border-radius:3em;
+}
+#staff_wrapper{
+  background-color: whitesmoke;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+
+  margin-bottom: 20px;
+  border-radius: 2em;
+}
+.view_wrapper{
+  background-color: whitesmoke;
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 2em;
+  font-size: 4mm;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid #dee2e6;
+  width: 100%;
+}
