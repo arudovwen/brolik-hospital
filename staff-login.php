@@ -1,7 +1,7 @@
 
 <?php 
 
-require 'core.php';
+require 'includes/core.php';
     
 
 

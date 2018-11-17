@@ -1,7 +1,7 @@
 <?php ob_start();?>
 <?php
 include "header.php";
-require "dbconnect.php";
+require "includes/dbconnect.php";
 if (isset($_POST['referral_name']) && isset($_POST['referral_number'])&& isset($_POST['referral_email']) && isset($_POST['referral_cardno'])
     && isset($_POST['patient_name']) && isset($_POST['patient_age']) && isset($_POST['patient_email'])&& isset($_POST['patient_address'])
     && isset($_POST['patient_gender']) && isset($_POST['patient_number']) && isset($_POST['patient_symptoms']) ) {

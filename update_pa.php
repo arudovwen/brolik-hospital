@@ -2,9 +2,9 @@
 
 
 <?php
- require "dbconnect.php"; 
+ require "includes/dbconnect.php"; 
  include "header.php";
- require 'core.php';
+ require 'includes/core.php';
 
 
 if(loggedin())

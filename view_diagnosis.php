@@ -1,5 +1,5 @@
 <?php
-require 'core.php';
+require 'includes/core.php';
 include 'header.php';
 
 $query="SELECT * FROM `patient_diagnosis` WHERE 1";

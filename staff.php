@@ -1,7 +1,7 @@
 <?php
 
-include 'core.php';
-require 'dbconnect.php';
+include 'includes/core.php';
+require 'includes/dbconnect.php';
 
 include "header.php";
 

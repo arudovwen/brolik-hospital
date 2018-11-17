@@ -1,5 +1,5 @@
 <?php 
-require 'core.php';
+require 'includes/core.php';
 
 session_destroy();
 

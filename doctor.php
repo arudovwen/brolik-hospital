@@ -1,7 +1,7 @@
 <?php
 
-require 'core.php';
-require 'dbconnect.php';
+require 'includes/core.php';
+require 'includes/dbconnect.php';
 include "header.php";
 
  if (loggedin()) {

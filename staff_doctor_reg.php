@@ -1,9 +1,9 @@
 
 <?php ob_start(); ?>
 <?php
-require 'core.php';
+require 'includes/core.php';
 include 'header.php';
-require 'dbconnect.php';
+require 'includes/dbconnect.php';
 
 ?>
 
