@@ -118,6 +118,7 @@ body{
     position: relative;
     background: #a6e5ee;
     overflow: hidden;
+    
 
 }
 .my-container:before {
@@ -147,7 +148,7 @@ body{
     margin-top: 70px;
 } 
 .my-container .side .side1{
-    border-radius: 20px;
+    border-radius: 10px;
     height: 2cm;
     margin: 4px;
     padding: 20px;

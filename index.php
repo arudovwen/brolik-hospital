@@ -4,8 +4,9 @@ include "header.php";
 
 ?>
 
-            <div class="slide">  <div class="container-fluid">
-                
+            
+     <!-- carousel starts -->
+                 <div class="slide"> 
 
                 <div id="my-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -61,62 +62,68 @@ include "header.php";
 
             
 
-               <div class="container-fluid"></div>
-            <div class="my-container">
+               <!-- starts -->
+             <div class = 'container-fluid'>
+             <div class="my-container">
             
-                    <div class="row">
-                            <section class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row">
+                    <section class="col-sm-12 col-md-12 col-lg-9">
 
-                                    <div class="motto1">
-                                            
-                                               <strong>WHAT MAKES US BETTER.. <br>MAKES YOU EVEN BETTER ®</strong> 
-                                            
-                                    </div> 
-                                    </section>
-                            <section class="col-sm-12 col-md-12 col-lg-3">
-                            <div class="side"  >
-                                <div class="row">
-                                        <section class="col-sm-4 col-md-4 col-lg-12">
-                                                <div  class="side1"><span class="fas fa-map-marker-alt"></span><a href=""></span> FIND LOCATION   <span class="fas fa-angle-double-right"></span></a> </div>
-                                       
-                                        </section>
-                                        
-                                        <section class="col-xs-4 col-sm-4 col-md-4 col-lg-12">
-                                                <div class="side1"><span class="fas fa-user-md"></span><a href=""></span> FIND DOCTOR   <span class="fas fa-angle-double-right"></span></a></div>
-                                      
-                                            </section>
-                                            
-                                        <section class="col-sm-4 col-md-4 col-lg-12">
-                                                <div class="side1"><span class="fas fa-address-book"></span><a href=""></span> REQUEST APPOINTMENT   <span class="fas fa-angle-double-right"></span></a></div>
-                                       
-                                            </section>
-                                </div>
+                            <div class="motto1">
                                     
+                                       <strong>WHAT MAKES US BETTER.. <br>MAKES YOU EVEN BETTER ®</strong> 
                                     
-                            </div>
+                            </div> 
                             </section>
-                          
-                             </div>   
+                            <!-- ends -->
+
+                            <!-- starts -->
+                    <section class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="side"  >
+                        <div class="row">
+                                <section class="col-sm-4 col-md-4 col-lg-12">
+                                        <div  class="side1"><span class="fas fa-map-marker-alt"></span><a href=""></span> FIND LOCATION   <span class="fas fa-angle-double-right"></span></a> </div>
+                               
+                                </section>
+                                
+                                <section class="col-xs-4 col-sm-4 col-md-4 col-lg-12">
+                                        <div class="side1"><span class="fas fa-user-md"></span><a href=""></span> FIND DOCTOR   <span class="fas fa-angle-double-right"></span></a></div>
+                              
+                                    </section>
+                                    
+                                <section class="col-sm-4 col-md-4 col-lg-12">
+                                        <div class="side1"><span class="fas fa-address-book"></span><a href=""></span> REQUEST APPOINTMENT   <span class="fas fa-angle-double-right"></span></a></div>
+                               
+                                    </section>
+                        </div>
+                            
+                            
                     </div>
-                    
-
-                    
-      
+                    </section>
+                  
+                     </div>   
             </div>
-           
-          
-            <div class="my-container2">
+            
 
-                    <div class="motto2">
-                            <h2>  <strong>Better people means better experiences. </strong> </h2>
-                            <h3> Our top surgeons, physicians and care teams are committed to delivering results that change lives.</h3>
-                            <a name="" id="" class="btn btn-primary" href="#" role="button">LEARN HOW</a>
-                    </div> 
-                   
-                </div>
-              
+            
+
+    
+   
+  <!-- starts -->
+    <div class="my-container2">
+
+            <div class="motto2">
+                    <h2>  <strong>Better people means better experiences. </strong> </h2>
+                    <h3> Our top surgeons, physicians and care teams are committed to delivering results that change lives.</h3>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button">LEARN HOW</a>
+            </div> 
+           
+        </div>
+      
+            
+       <!-- quick guide starts -->
                 <div id="quick-guide">
-                        <div class="container">
+                       
                                 <div class="row">
                                     <section class="col-sm-6 col-md-3 col-lg-3">
                                        <img src="image/icon1.png" class="img rounded-circle" width ="180px" height="180px"><br>
@@ -141,16 +148,19 @@ include "header.php";
                                     
                                   </div>
                                   
-                                </div>
-                </div>
-                </div>                  
-     
+                        
+                
 
-     </div>
-     <section>
+              </div>
+
+
+
+<!-- subscribe field starts -->
+        <section>
+        
           
         <div class="subscribe">
-            <div class="container">
+            
                 <div class="row">
                         <section class="col-sm-6 col-md-2 col-lg-2">
                             <img src="image/Email.jpg" class="img rounded-circle" width="90px" height="90px">
@@ -167,9 +177,13 @@ include "header.php";
                 </div>
                
             
-             </div>
+             
          </div>
 
         </section>
         
+                 
+</div>
+
+<!-- import footer -->
 <?php include "footer.php" ?>
