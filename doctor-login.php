@@ -24,8 +24,8 @@
 
                         if (isset($_POST['check'])){
                             //set up cookie
-                            setcookie("user", $user['doctor_username'], time() + (86400 * 30)); 
-                            setcookie("pass", $user['password'], time() + (86400 * 30)); 
+                            setcookie("user", $user['doctor_username'], time() + (60 * 30)); 
+                            setcookie("pass", $user['password'], time() + (60 * 30)); 
                         }
 
                                               
