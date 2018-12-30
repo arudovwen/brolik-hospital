@@ -22,7 +22,7 @@
 
     <div class="container-fluid">
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
-            <a class="navbar-brand" href="index.php"><h2> <img class="logo d-inline-block align-top" src="https://brolik.com/images/BRO_logo.svg">
+            <a class="navbar-brand" href="index.html"><h2> <img class="logo d-inline-block align-top" src="https://brolik.com/images/BRO_logo.svg">
                 SPECIALIST HOSPITAL</h2> </a>
             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">

@@ -1,5 +1,5 @@
 body{
-    background: rgb(200, 203, 230);
+    background: linear-gradient(to right, rgb(214, 214, 214), rgb(64, 128, 128));
     color: black;
    
 }
@@ -163,6 +163,25 @@ body{
     position: relative;
     color: rgb(7, 7, 7);
 } 
+@media only screen and(max-width:990px){
+  .my-container .motto1{
+    font-size:1em;
+    
+  }
+  b, strong {
+    font-weight: bolder;
+}
+}
+@media only screen and(min-width:480px){
+  .my-container .motto1{
+    font-size:1em;
+ 
+   
+  }
+  b, strong {
+    font-weight: bold;
+}
+}
 .my-container2{
     position: relative;
     background: #a6e5ee;
@@ -210,13 +229,13 @@ body{
     margin-top: 3cm;
     width: 100%;
     height: auto;
-    background-color: antiquewhite;
+    background:linear-gradient(to right, rgb(255, 255, 176), rgb(151, 255, 255));
 }
 .bg-info {
   background-color: #234f56!important;
 }
 .login-wrapper{
-  background-color: whitesmoke;
+  background:linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255));
   width: 100%;
   height: auto;
   padding: 20px;
@@ -227,7 +246,7 @@ body{
 }
 
 .loginform{
-  background: rgb(200, 203, 230);
+  background:linear-gradient(to right, rgb(255, 255, 255), rgb(196, 179, 227));
   text-align: center;
   height: auto;
   width: auto;
@@ -239,7 +258,7 @@ body{
   border-radius: 5em;
 }
 .rform-wrapper{
-  background-color: white;
+  background:linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255));
   height: auto;
   width: 100%;
   margin-bottom: 40px;
@@ -248,7 +267,7 @@ body{
  
 }
 .rform{
-  background: rgb(200, 203, 230);
+  background:linear-gradient(to right, rgb(255, 255, 255), rgb(196, 179, 227));
   height: auto;
   width: 100%;
   margin: 10px;
@@ -257,7 +276,7 @@ body{
 }
 
 .aform-wrapper{
-  background-color: white;
+  background:linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255));
   height: auto;
   width: 100%;
   margin-bottom: 40px;
@@ -265,7 +284,7 @@ body{
   padding: 70px;
 }
 .aform{
-  background: rgb(200, 203, 230);
+  background:linear-gradient(to right, rgb(255, 255, 255), rgb(196, 179, 227));
   height: auto;
   width: 100%;
   margin-bottom: 10px;
@@ -275,7 +294,7 @@ body{
 }
 
 .biller{
-  background-color: white;
+  background: linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255)) ;
   height: auto;
   width: 100%;
  text-align: center;
@@ -298,7 +317,7 @@ body{
 }
 
 .contact_wrap{
-  background-color: white;
+  background: linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255));
   height: auto;
   width: 100%;
  margin-bottom: 10px;
@@ -307,7 +326,7 @@ body{
   border-radius:3em;
 }
 #staff_wrapper{
-  background-color: whitesmoke;
+  background: linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255));
   width: 100%;
   height: auto;
   padding: 20px;
@@ -317,7 +336,7 @@ body{
   border-radius: 2em;
 }
 .view_wrapper{
-  background-color: whitesmoke;
+  background: linear-gradient(to right, rgb(192, 192, 192), rgb(255, 255, 255))ke;
   width: 100%;
   height: auto;
   padding: 2px;
@@ -329,4 +348,31 @@ body{
 .table-bordered td, .table-bordered th {
   border: 1px solid #dee2e6;
   width: 100%;
+}
+
+.icon{
+  color:#FFF;
+  font-size:1em;
+  border-radius:15px;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
+
+}
+.icon:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.icon1{
+  color:#FFF;
+  font-size:1em;
+  transition: all 0.3s linear;
+
+}
+.icon1:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
