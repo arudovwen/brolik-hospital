@@ -29,6 +29,14 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+@media(max-width:940px){
+  #cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+display: none;
+}
+}
 #cssmenu:after,
 #cssmenu > ul:after {
   content: ".";
@@ -163,25 +171,26 @@ body{
     position: relative;
     color: rgb(7, 7, 7);
 } 
-@media only screen and(max-width:990px){
+@media(max-width:798px){
   .my-container .motto1{
-    font-size:1em;
+    font-size:1.5em;
     
   }
   b, strong {
     font-weight: bolder;
 }
 }
-@media only screen and(min-width:480px){
+@media(max-width:980px){
   .my-container .motto1{
-    font-size:1em;
- 
-   
+    font-size:2em;
+    
   }
   b, strong {
-    font-weight: bold;
+    font-weight: bolder;
 }
 }
+
+
 .my-container2{
     position: relative;
     background: #a6e5ee;
